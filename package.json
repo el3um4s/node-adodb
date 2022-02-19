@@ -1,5 +1,5 @@
 {
-  "name": "node-adodb",
+  "name": "@el3um4s/node-adodb",
   "version": "5.0.3",
   "main": "index.js",
   "license": "MIT",
