@@ -13,10 +13,17 @@
   ],
   "homepage": "https://github.com/el3um4s/node-adodb#readme",
   "description": "A Node.js JavaScript Client implementing the ADODB protocol.",
-  "author": {
-    "name": "nuintun",
-    "email": "nuintun@qq.com"
-  },
+  "author": "Samuele C. De Tomasi",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/el3um4s"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.paypal.me/el3um4s"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/el3um4s/node-adodb/issues"
   },
