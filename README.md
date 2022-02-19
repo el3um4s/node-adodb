@@ -2,6 +2,8 @@
 
 **This package is an updated version of Nuintun's node-adodb. All credit goes to Nuintun. And all the code is his. I created this fork to try some experiments. I recommend using the original version.**
 
+link: [https://github.com/nuintun/node-adodb](https://github.com/nuintun/node-adodb)
+
 > A node.js javascript client implementing the ADODB protocol on windows.
 
 ### Install
