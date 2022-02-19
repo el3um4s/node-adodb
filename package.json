@@ -1,0 +1,54 @@
+{
+  "name": "node-adodb",
+  "version": "5.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "sql",
+    "adodb",
+    "access",
+    "database",
+    "node-adodb",
+    "microsoft adodb"
+  ],
+  "homepage": "https://github.com/el3um4s/node-adodb#readme",
+  "description": "A Node.js JavaScript Client implementing the ADODB protocol.",
+  "author": {
+    "name": "nuintun",
+    "email": "nuintun@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/el3um4s/node-adodb/issues"
+  },
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el3um4s/node-adodb.git"
+  },
+  "dependencies": {
+    "arch": "^2.2.0",
+    "debug": "^4.3.3",
+    "mocha": "^9.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "fs-extra": "^10.0.0",
+    "holding": "^3.1.1",
+    "rollup": "^2.67.3",
+    "terser": "^5.10.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node rollup.js",
+    "test": "mocha --timeout 6000 --check-leaks --reporter spec --bail --exit",
+    "test-ci": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --timeout 6000 --check-leaks --reporter spec --exit",
+    "test-cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- --timeout 6000 --check-leaks --reporter dot --exit",
+    "check-updates": "npx npm-check-updates",
+    "check-updates:minor": "npx npm-check-updates --target minor",
+    "check-updates:patch": "npx npm-check-updates --target patch"
+  }
+}
