@@ -1,4 +1,4 @@
-declare module 'node-adodb' {
+declare module '@el3um4s/node-adodb' {
   let PATH: string;
   const open: (connection: string, x64?: boolean) => open;
 
