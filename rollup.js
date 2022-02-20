@@ -20,13 +20,22 @@ async function build(inputOptions, outputOptions) {
   await fs.remove(outputOptions.file);
 
   const bundle = await rollup.rollup(inputOptions);
-  const { output } = await bundle.generate(outputOptions);
+  const {
+    output
+  } = await bundle.generate(outputOptions);
   const [result] = output;
 
   const file = outputOptions.file;
-  const minify = terser.minify(result.code, { ie8: true, output: { comments: false } });
+  const minify = terser.minify(result.code, {
+    ie8: true,
+    output: {
+      comments: false
+    }
+  });
 
-  await fs.outputFile(file, banner + minify.code);
+
+  // await fs.outputFile(file, banner + minify.code);
+  await fs.outputFile(file, banner + result.code);
 
   console.log(`Build ${file} success!`);
 }
