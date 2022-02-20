@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/node-adodb",
-  "version": "5.0.6",
+  "version": "5.0.7",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -13,7 +13,10 @@
   ],
   "homepage": "https://github.com/el3um4s/node-adodb#readme",
   "description": "A Node.js JavaScript Client implementing the ADODB protocol.",
-  "author": "Samuele C. De Tomasi",
+  "author": {
+    "name": "Samuele C. De Tomasi",
+    "email": "samuele@stranianelli.com"
+  },
   "funding": [
     {
       "type": "patreon",
