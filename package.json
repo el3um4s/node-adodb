@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/node-adodb",
-  "version": "5.0.8",
+  "version": "5.0.9",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -30,9 +30,6 @@
   "bugs": {
     "url": "https://github.com/el3um4s/node-adodb/issues"
   },
-  "os": [
-    "win32"
-  ],
   "engines": {
     "node": ">=6.0.0"
   },
