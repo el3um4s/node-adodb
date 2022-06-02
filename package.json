@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/node-adodb",
-  "version": "5.0.10",
+  "version": "5.0.11",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -39,15 +39,15 @@
   },
   "dependencies": {
     "arch": "^2.2.0",
-    "debug": "^4.3.3",
-    "mocha": "^9.2.1"
+    "debug": "^4.3.4",
+    "mocha": "^10.0.0"
   },
   "devDependencies": {
     "chai": "^4.3.6",
-    "fs-extra": "^10.0.0",
+    "fs-extra": "^10.1.0",
     "holding": "^3.1.1",
-    "rollup": "^2.67.3",
-    "terser": "^5.10.0"
+    "rollup": "^2.75.5",
+    "terser": "^5.14.0"
   },
   "scripts": {
     "prepublishOnly": "node rollup.js",
