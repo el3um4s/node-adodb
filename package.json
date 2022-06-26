@@ -46,8 +46,8 @@
     "chai": "^4.3.6",
     "fs-extra": "^10.1.0",
     "holding": "^3.1.1",
-    "rollup": "^2.75.5",
-    "terser": "^5.14.0"
+    "rollup": "^2.75.7",
+    "terser": "^5.14.1"
   },
   "scripts": {
     "prepublishOnly": "node rollup.js",
